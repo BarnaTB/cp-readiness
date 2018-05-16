@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(248, 244, 244);
+    color: black;
+    align-content: center;
+}
+.search {
+    padding: 30px;
+    width: 15px;
+    color: navy;
+}
