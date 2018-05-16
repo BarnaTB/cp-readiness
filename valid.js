@@ -1,13 +1,8 @@
 function required(){
-    var valId = document.userInput.submt.value;
-    if (valId === "")
+    var valId = document.getElementById("userInput").value;
+    if (valId != "")
     {
-        alert("Please enter some text.");
-        return false;
-    }
-    else
-    {
-        alert("userInput");
+        alert(valId);
         return true;
     }
 }
